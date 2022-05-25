@@ -54,7 +54,7 @@
         function openIziDecision(data) {
             // alert(amount)
             showPopup = true; 
-            iframe.src = `http://localhost:3000/creditdecision/${JSON.stringify(data)}`;
+            iframe.src = `https://main.d2r1xdqwb0n7e7.amplifyapp.com/creditdecision/${JSON.stringify(data)}`;
             iframe.frameBorder = "0";
             iframe.id = "iframe";
             iframe.ref = {}
