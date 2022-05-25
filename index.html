@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <style></style>
+</head>
+
+<body>
+    <button onclick="openIziDecision({
+        name: 'First Name',
+        amount: '500000'
+    })">Open Credit Decision</button>
+    <div id="result"></div>
+</body>
+<script src="izifin.js"></script>
+<script>
+    function onSuccessBNPL(response) {
+        console.log(response);
+    }
+</script>
+
+</html>
